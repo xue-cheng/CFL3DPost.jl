@@ -6,9 +6,9 @@
   inp = CFL3DInput(joinpath(case, "n0012_pitch.inp"))
   splitter(inp; verbose=true)
   
-  inp = "n0012_pitch2.inp"
+  inpfile = joinpath(case, "n0012_pitch2.inp")
   dir = ".movie2"
   mkpath(joinpath(case, dir))
   splitter = MovieSplitter(prefix=joinpath(dir, "movie_"))
-  splitter(joinpath(case, inp); verbose=false)
+  splitter(inpfile; verbose=false)
 end
