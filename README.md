@@ -4,7 +4,7 @@
 [![Coverage](https://coveralls.io/repos/github/xue-cheng/CFL3DPost.jl/badge.svg?branch=master)](https://coveralls.io/github/xue-cheng/CFL3DPost.jl?branch=master)
 
 # Install
-For any Julia >= 1.6:
+**Julia >= 1.6 is required!**
 ```
 ] add https://github.com/xue-cheng/CFL3DPost.jl
 ```
